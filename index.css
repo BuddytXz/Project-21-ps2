@@ -30,8 +30,7 @@ li {
     font-size: 1.4rem;
 }
 
-nav,
-a:hover {
+nav a:hover {
     color: blue;
 }
 
@@ -47,4 +46,23 @@ header {
 ul {
     display: flex;
     justify-content: space-around;
+}
+
+.containerCard {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 6%;
+}
+
+.containerCard img {
+    width: 100%;
+}
+
+.containerMain {
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 8%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
